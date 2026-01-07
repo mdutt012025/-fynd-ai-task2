@@ -18,47 +18,4 @@ Admin Dashboard
 🏷️ Filter by star rating
 ⏰ Auto-refreshing every 5 seconds
 
-🏗️ Architecture
-Task 2 System
-├── Backend (FastAPI + Supabase)
-│   ├── Review submission handling
-│   ├── LLM integration (Gemini API)
-│   ├── Database persistence
-│   └── API endpoints
-├── User Frontend (React + Vite)
-│   ├── Review submission form
-│   ├── AI response display
-│   └── Success/error states
-└── Admin Frontend (React + Vite)
-    ├── Dashboard with stats
-    ├── Filterable review list
-    └── Real-time data refresh
 
-    📋 Project Structure
-fynd-ai-task2/
-├── backend/
-│   ├── src/
-│   │   └── main.py
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── Procfile
-│   └── vercel.json
-├── frontend-user/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .env.example
-├── frontend-admin/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .env.example
-└── README.md
