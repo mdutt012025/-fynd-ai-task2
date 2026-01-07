@@ -1,0 +1,16 @@
+# backend/.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.env
+.env.local
+*.db
+.DS_Store
+.idea/
+*.log
